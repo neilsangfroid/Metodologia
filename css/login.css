@@ -1,0 +1,62 @@
+.registro{
+    width: 400px;
+    background:rgba(255, 255, 255, 0.712);
+    padding: 28px;
+    margin: auto ;
+    margin-top: 80px;
+    border-radius: 7px;
+    font-family: "calibri";
+    color: black;
+    box-shadow: 7px 13px 30px #000;
+}
+.control{
+    width: 95%;
+    background:transparent;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom:12px;
+    border: 3px solid #001e3b;
+    font-family: "calibri";
+    font-size: 15px;
+}
+.registo p{
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 50px;
+}
+.registro a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+
+}
+.registro a:hover{
+    color: black;
+    text-decoration: underline;
+
+}
+#buton{
+    position: relative;
+    right: 3%;
+    width: 100%;
+    padding: 12px;
+    background :rgb(175, 99, 0);
+    color: white;
+    margin: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color:rgb(156, 89, 1);
+}
+.santi{
+    text-align: center;
+}
+#gaaa{
+    font-family:Verdana, Geneva, sans-serif;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#nombres{
+    color: black;
+}

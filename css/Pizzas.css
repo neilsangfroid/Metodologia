@@ -1,0 +1,389 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2020/02/04/22/56/icons-4819647_960_720.png");
+    background-color:rgb(252, 252, 252);
+    background-size:100%;
+    margin:auto;
+    width: 100%;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#titulo1{
+    position: absolute;
+    top: 280px;
+    color: rgb(253, 253, 253);
+    font-family: "Italiana-Regular";
+    font-size: 25px;
+    width: 100%;
+    height: 100px;
+    background-color: #145489;
+
+    
+}
+
+#im{
+    position: absolute;
+    top: 1px;
+    width: 100px;
+    left:1px;
+    
+    
+
+}
+#titulo1 h1{
+    color: white;
+    position: relative;
+    left: 215px;
+    font-size: 45px;
+    z-index: 100px;
+}
+.menu{
+    position: absolute;
+    top:0px;
+    right:0px;
+    width: 50%;
+    height: 50%;
+    float: left;
+    line-height: 65px;
+    z-index: 100000px;
+    
+}
+.menu li {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu a{
+    display: block;
+    padding: 0px 20px;
+    text-decoration: none;
+    color: white;
+    transition: all 500ms ease;
+}
+.menu a:hover {
+    background: #cc673b;
+    color: #fff;
+}
+.menu .submenu{
+    background: grey;
+    box-shadow: 3px 10px 10px rgba(0,0,0,0.2);
+    display: none;
+}
+.menu .submenu li a {
+    line-height: 50px;
+}
+.menu ul li a:hover + ul, .menu .submenu:hover{
+    display: block;
+}
+    
+#alerta{
+    position: relative;
+    top:150px;
+    width: 100%;
+    color: rgb(241, 37, 37);
+    font-family: "Jungle DF";
+    font-size: 35px;
+    text-align: center;
+
+}
+    @font-face {
+        font-family:"Jungle DF";
+        src: url("font/Jungle DF.ttf");
+}
+@font-face {
+    font-family:"Italiana-Regular" ;
+    src: url("font/Italiana-Regular.ttf");
+}
+
+#form p {
+    text-align: center;
+}
+
+
+#registro{
+    font-family: "Italiana-Regular";
+    color: rgb(247, 247, 34);
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu{
+    position: absolute;
+    top:0px;
+    right:0px;
+    width: 50%;
+    height: 50%;
+    float: left;
+    line-height: 65px;
+    z-index: 100000;
+    
+}
+.menu li {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu a{
+    display: block;
+    padding: 0px 20px;
+    text-decoration: none;
+    color: white;
+    transition: all 500ms ease;
+}
+.menu a:hover {
+    background: #cc673b;
+    color: #fff;
+}
+.menu .submenu{
+    background: grey;
+    box-shadow: 3px 10px 10px rgba(0,0,0,0.2);
+    display: none;
+}
+.menu .submenu li a {
+    line-height: 50px;
+}
+.menu ul li a:hover + ul, .menu .submenu:hover{
+    display: block;
+}
+    
+#alerta{
+    position: relative;
+    top:150px;
+    width: 100%;
+    color: rgb(241, 37, 37);
+    font-family: "Jungle DF";
+    font-size: 35px;
+    text-align: center;
+
+}
+    @font-face {
+        font-family:"Jungle DF";
+        src: url("font/Jungle DF.ttf");
+}
+@font-face {
+    font-family:"Italiana-Regular" ;
+    src: url("font/Italiana-Regular.ttf");
+}
+
+#form p {
+    text-align: center;
+}
+
+
+#registro{
+    font-family: "Italiana-Regular";
+    color: rgb(247, 247, 34);
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    color: gray;
+    
+}
+label:hover,
+label:hover ~ label {
+    color: orange;
+}
+
+
+input[type="radio"]:checked ~ label {
+    color: orange;
+}
+legend{
+    color: cornflowerblue;
+
+}
+#buscador{
+    position: absolute ;
+    top:200px;
+    right: 25px;
+    width: 200px;
+    height: 250px;
+    color: blanchedalmond;
+
+}
+/* ///////// B//////////////////////////////////////////////////
+*/  
+
+
+/* //////////////////////////C/////////////////////////////// */
+
+#tablab{
+    position: absolute;
+    top:400px;
+    width: 100%;
+    height:500px;
+    border: solid red 2px;
+    background: rgb(255, 255, 255);
+    
+}
+@font-face {
+    font-family: "undertale";
+    src: url("font/AnotherDay.ttf");
+}
+#tablab img{
+    width: 250px;
+    
+}
+#sub{
+
+    font-family: "undertale";
+    font-size: 3em;
+    text-align: center;
+    color: rgb(10, 9, 9);
+}
+
+.class{
+    width: 5em;
+}
+
+.texto{
+    font-family: serif;
+    color: rgb(5, 5, 5);  
+    font-size: 25px;
+}
+table td{
+    text-align: center;
+}
+
+#tablab td{
+    border: 1px red solid;
+    padding: 1px;
+    background: rgb(241, 71, 71);
+}
+
+/*///////////////////////////// D//////////////////////////// */
+#contenedor{
+    position: absolute;
+    right: 50px;
+    top: 900px;
+    border:2px solid rgb(153, 138, 138);
+    width: 300px;
+    height: 610px;
+    padding: 30px;
+    font-size: 20px;
+    background-color: rgb(243, 135, 102);
+    font-family: cursive;
+    
+}
+
+    
+#PIZZ1 img{
+    border: none;
+    width: 100px;
+    height: 50px;
+
+}
+#PIZZ2 img{
+    border: none;
+    width: 100px;
+    height: 50px;
+
+}
+
+#PIZZ3 img{
+    border: none;
+    width: 100px;
+    height: 50px;
+
+}
+
+#PIZZ4 img{
+    border: none;
+    width: 100px;
+    height: 50px;
+
+}
+button{
+    background: red;
+    width: 90px;
+    color: #f8f8f8;
+    font-family: cursive;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px;
+}
+#boton{
+    background: red;
+    width: 300px;
+    color: #f8f8f8;
+    font-family: cursive;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+/* ///////////////////////////////////// ANUNCIO //////////////////////// */
+
+/* ///////////////////////E //////////////////////// */
+#formularioG{
+    position: absolute;
+    left:0px;
+    top:1400px;
+}
+#formularioG2{
+    position: absolute;
+    left:800px;
+    top:1600px;
+}
+#imagenes img{
+    width: 70px;
+    height: 50px;
+}
+#texto{
+    background-color: black;
+    color: rgb(248, 252, 32);
+    position: absolute;
+    top: 290px;
+    left: 125px;
+    font-size: 25px;
+    font-family: 'Lucida Bright';
+}
+.letraE{
+    font-family: "Jungle DF"; 
+    font-size: 50px 15px;
+    color: rgb(255, 82, 77);
+    font-size: 2rem;
+    
+}
+#sisas p{
+    font-family: cursive ;
+    color: brown;
+}
